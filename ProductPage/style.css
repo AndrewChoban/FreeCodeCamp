@@ -1,0 +1,57 @@
+@media screen {
+    body{
+    background-color: black;
+    color: white;
+    }
+}
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(133, 133, 168);
+}
+
+#header{
+    position: relative;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(12, 94, 109);
+    flex-direction: row;
+}
+
+#header-img{
+    border-radius: 50%;
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    padding: 25px;
+}
+
+h1{
+    position: relative;
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+#about-div{
+    margin: auto;
+    width: 80%;
+}
+#video-div{
+    padding-top: 25px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-link{
+
+}
+.extra-space{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}

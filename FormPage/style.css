@@ -1,0 +1,25 @@
+.box{
+    height: 25px;
+    width: 25px;
+}
+
+.container{
+    position: relative;
+    
+    display: grid;
+    grid-template-columns: 25px 75px;
+    grid-template-rows: 60px 60px;
+    justify-content: left;
+}
+
+#red-box{
+    background-color: red;
+}
+
+#green-box{
+    background-color: green;
+}
+
+#blue-box{
+    background-color: blue;
+}

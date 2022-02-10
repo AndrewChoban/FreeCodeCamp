@@ -1,0 +1,106 @@
+html, body{
+    /*This is a margin and padding reset 
+    so elements touch the edge of the window*/
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid black;
+}
+
+.nav-link{ 
+    display: flex;
+}
+
+.nav-link li{
+    list-style: none;
+}
+
+.nav-link a{
+    padding: 16px;
+    color: lightblue;
+}
+
+.nav-link a:hover{
+    background: rgb(82, 81, 81);
+}
+
+.welcome-section{
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(darkblue,lightblue);
+    margin-top: 50px;
+    }
+
+h1{
+    font-size: 2.5rem;
+    color:black;
+    text-shadow: 1px 1px darkblue;
+}
+
+
+.info-text{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+     
+}
+
+h2, p{
+    margin: 0px 50px 25px 50px;  
+}
+
+.project-tile{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.project-header{
+    font-size: 1em;
+}
+.project-img{
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 2px 2px gray;
+    background: white;
+}
+
+.project-text{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+}
