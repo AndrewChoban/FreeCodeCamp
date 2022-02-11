@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: ;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, p{
+    margin-left: 50px;
+}
+
+#logo-img{
+    height: auto;
+    width: auto;
+}
+
+.center-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner{
+    width: 100%;
+    background-color: black;
+}
+
