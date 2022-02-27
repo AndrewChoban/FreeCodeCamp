@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="height=device-height">
 </head>
 <body>
     <nav id="navbar" class="nav">
@@ -12,28 +13,43 @@
             <li><a href="#fcc-profile">FCC Profile</a></li>
         </ul>
     </nav>
+    
     <section id="welcome-section" class="welcome-section">
         <h1>Hello, I am Andrew Choban</h1>
-
     </section>
     <section id=about-me>
         <h2> A bit about me</h2>
-        <div class="info-text">
-            <p>I am a (mostly) self-thought web developer. I have been using <a href="https://www.freecodecamp.org/" target="_blank">Free Code Camp</a> to help me learn the basics of html, css, and javascript. 
+        <p>I am a new and learning web developer. I have been using <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener refferer">Free Code Camp</a> to help me learn the basics of html, css, and javascript. 
         This portfolio page is the last project for their firt online certification in web development. I am hoping a find a entry-level job as either a junior web developer 
-        or working with a CMS (Content Management System). I look forward to continue learning and growing in this field.</p>
-        </div>
+        or working with a CMS (Content Management System). I look forward to continue learning and growing in this field.
+        </p>
+        <p>In my free time I enjoying play video games. I have played many different genres but my favorite has been action role-playing games(ARPG).
+            Grim dawn as been my most recent favorite, but I am currently looking forward to play Lost Ark when it releases for western audience in February 2022.
+        </p>
+        <p>With my background in computer programming and love for video games I do have an interest in video game development and the arts that go along with it. 
+            I have learned 3D modeling with Blender, worked with small game projects using the Unity game engine and learn some C#. I am by no means an expert but do enjoying learning more 
+            within these fields and expanding my skills.
+        </p>
+        <hr>
     </section>
+    <h2 class="center-text">Tribute pages</h2>
     <section id="projects" >
         <div class="project-tile">
-            <h3 class="project-header">Project Name</h3>
-            <div class="project-img"><p class="project-text">In-progress</p></div>
-            <a href="">Project Link</a>
+            <h3 class="project-header">Grim Dawn</h3>           
+            <a href="../TributePage/GrimDawn/index.html">
+                <img id="grim-dawn-img" src="https://steamuserimages-a.akamaihd.net/ugc/260465617084143311/E7D4B992A48301067DBFA3F8A7E3BFDDFF0EFF5D/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Grim Dawn Image">
+            </a>
+        </div>
+        <div class="project-tile">
+            <h3 class="project-header">Lost Ark</h3>
+            <a href="../TributePage/LostArk/index.html">
+                <img id="lost-ark-img" src="img/LostArkIcon.png" alt="Lost Ark Image">
+            </a>
         </div>
         
     </section>
     <section id="fcc-profile">
-        <p>Here is my Free Code Camp <a href="https://www.freecodecamp.org/fcc588ed50f-f14f-4c2c-b918-7845bf356090" target="_blank">profile</a> with my certifications I have completed.</p>
+        <p>Here is my Free Code Camp <a id="profile-link" href="https://www.freecodecamp.org/fcc588ed50f-f14f-4c2c-b918-7845bf356090" target="_blank">profile</a> with my certifications I have completed.</p>
     </section>
 
 </body>
